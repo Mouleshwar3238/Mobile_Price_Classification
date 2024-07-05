@@ -51,8 +51,23 @@ For the KNN algorithm, the accuracy rates were computed for different values of 
       <td align="center">50</td>
     </tr>
     <tr>
-      <td align="center"><strong>Accuracy Rate (in %) </strong></td>
-      <td align="center">93.75</td>
+      <td align="center"><strong>Test Accuracy (in %) </strong></td>
+      <td align="center">94.00</td>
+      <td align="center">61.00</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Precision (in %) </strong></td>
+      <td align="center">94.04</td>
+      <td align="center">61.00</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Recall (in %) </strong></td>
+      <td align="center">93.94</td>
+      <td align="center">61.00</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test F1 Score (in %) </strong></td>
+      <td align="center">94.04</td>
       <td align="center">61.00</td>
     </tr>
   </tbody>
