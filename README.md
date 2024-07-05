@@ -243,10 +243,10 @@ A SVC was implemented using differenet kernels and confusion matrices and bar gr
     <tr>
       <td align="center"></td>
       <td align="center">Sigmoid</td>
-      <td align="center">89.250</td>
-      <td align="center">88.969</td>
-      <td align="center">88.958</td>
-      <td align="center">88.886</td>
+      <td align="center">91.125</td>
+      <td align="center">91.316</td>
+      <td align="center">91.167</td>
+      <td align="center">91.194</td>
     </tr>
   </tbody>
   </table>
