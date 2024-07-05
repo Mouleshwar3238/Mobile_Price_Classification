@@ -40,8 +40,8 @@ For the KNN algorithm, the accuracy rates were computed for different values of 
   <thead>
     <tr>
       <th align="center"></th>
-      <th align="center">Original Test Data</th>
-      <th align="center">Normalized Test Data</th>
+      <th align="center">Original Data</th>
+      <th align="center">Normalized Data</th>
     </tr>
   </thead>
   <tbody>
@@ -52,23 +52,23 @@ For the KNN algorithm, the accuracy rates were computed for different values of 
     </tr>
     <tr>
       <td align="center"><strong>Test Accuracy (in %) </strong></td>
-      <td align="center">94.00</td>
-      <td align="center">61.00</td>
+      <td align="center">96.000</td>
+      <td align="center">61.000</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Precision (in %) </strong></td>
-      <td align="center">94.04</td>
-      <td align="center">61.00</td>
+      <td align="center">96.024</td>
+      <td align="center">60.828</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Recall (in %) </strong></td>
-      <td align="center">93.94</td>
-      <td align="center">61.00</td>
+      <td align="center">96.026</td>
+      <td align="center">61.629</td>
     </tr>
     <tr>
       <td align="center"><strong>Test F1 Score (in %) </strong></td>
-      <td align="center">94.04</td>
-      <td align="center">61.00</td>
+      <td align="center">96.007</td>
+      <td align="center">61.116</td>
     </tr>
   </tbody>
   </table>
