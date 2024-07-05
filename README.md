@@ -339,4 +339,4 @@ A SVC was implemented using differenet kernels and confusion matrices and bar gr
   </tbody>
   </table>
 
-For the linear, polynomial and rbf kernels, the performance metrics remained the same or decreased after normalizing the data. On the other hand, for the sigmoid kernel, the accuracy rates improved by a huge extent after normalizing the data.
+For the linear, polynomial and rbf kernels, the performance metrics remained the same or decreased after normalizing the data. On the other hand, for the sigmoid kernel, the performance metrics improved by a huge extent after normalizing the data.
