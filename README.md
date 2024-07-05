@@ -31,7 +31,7 @@ The dataset contains features for about 2000 mobile phones, as well as their app
 </tbody>
 </table>
 
-The dataset has been split into a training subset and test subset, with 80 % being used for training and 20 % being used for testing. The algorithms have been run on the original data as well as on the normalized data, with the latter being normalized using StandardScaler.
+The dataset has been split into a training subset and test subset, with 80 % being used for training and 20 % being used for testing. The algorithms have been run on the original data as well as on the normalized data, with the latter being normalized using StandardScaler. K-fold cross validation with 5 folds (K = 5) was used to validate the performance of all the models.
 
 ## K Nearest Neighbours (KNN Classifier)
 For the KNN algorithm, the accuracy rates were computed for different values of K and the confusion matrix was plotted for some of these values.
@@ -89,3 +89,74 @@ For the KNN algorithm, the accuracy rates were computed for different values of 
     </tr>
   </tbody>
   </table>
+The accuracy rates for the original data were quite high compared to
+
+## Support Vector Classifier (SVC)
+A SVC was implemented using differenet kernels and confusion matrices were plotted for the corresponding results.
+* Cross Validation
+  <table>
+  <thead>
+    <tr>
+      <th align="center">SVC Kernel</th>
+      <th align="center">Accuracy Rate (in %) <br> for Original Data</th>
+      <th align="center">Accuracy Rate (in %) <br> for Normalized Data</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">Linear</td>
+      <td align="center">97.25</td>
+      <td align="center">95.38</td>
+    </tr>
+    <tr>
+      <td align="center">Polynomial</td>
+      <td align="center">95.44</td>
+      <td align="center">75.62</td>
+    </tr>
+    <tr>
+      <td align="center">RBF</td>
+      <td align="center">95.19</td>
+      <td align="center">86.44</td>
+    </tr>
+    <tr>
+      <td align="center">Sigmoid</td>
+      <td align="center">19.75</td>
+      <td align="center">91.12</td>
+    </tr>
+  </tbody>
+  </table>
+
+* Test Dataset
+  <table>
+  <thead>
+    <tr>
+      <th align="center">SVC Kernel</th>
+      <th align="center">Accuracy Rate (in %) <br> for Original Data</th>
+      <th align="center">Accuracy Rate (in %) <br> for Normalized Data</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">Linear</td>
+      <td align="center">97.00</td>
+      <td align="center">97.00</td>
+    </tr>
+    <tr>
+      <td align="center">Polynomial</td>
+      <td align="center">96.25</td>
+      <td align="center">78.75</td>
+    </tr>
+    <tr>
+      <td align="center">RBF</td>
+      <td align="center">96.50</td>
+      <td align="center">89.25</td>
+    </tr>
+    <tr>
+      <td align="center">Sigmoid</td>
+      <td align="center">17.50</td>
+      <td align="center">92.25</td>
+    </tr>
+  </tbody>
+  </table>
+
+For the linear, polynomial and rbf kernels, the accuracy rates remained the same or decreased after normalizing the data. On the other hand, for the sigmoid kernel, the accuracy rates improved by a huge extent after normalizing the data.
