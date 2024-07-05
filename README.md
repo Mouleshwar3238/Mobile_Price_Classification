@@ -162,71 +162,181 @@ For the KNN algorithm, the accuracy rates were computed for different values of 
 The performance metrics for the original data were quite high compared to that of the normalized data.
 
 ## Support Vector Classifier (SVC)
-A SVC was implemented using differenet kernels and confusion matrices were plotted for the corresponding results.
+A SVC was implemented using differenet kernels and confusion matrices and bar graphs were plotted for the corresponding results.
 * Cross Validation
   <table>
   <thead>
     <tr>
-      <th align="center">SVC Kernel</th>
-      <th align="center">Accuracy Rate (in %) <br> for Original Data</th>
-      <th align="center">Accuracy Rate (in %) <br> for Normalized Data</th>
+      <th align="center"></th>
+      <th align="center">Kernel</th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td align="center"><strong>Original Data</strong></td>
       <td align="center">Linear</td>
-      <td align="center">97.25</td>
-      <td align="center">95.38</td>
+      <td align="center">97.250</td>
+      <td align="center">97.274</td>
+      <td align="center">97.285</td>
+      <td align="center">97.264</td>
     </tr>
     <tr>
+      <td align="center"></td>
       <td align="center">Polynomial</td>
-      <td align="center">95.44</td>
-      <td align="center">75.62</td>
+      <td align="center">95.438</td>
+      <td align="center">95.513</td>
+      <td align="center">95.478</td>
+      <td align="center">95.454</td>
     </tr>
     <tr>
+      <td align="center"></td>
       <td align="center">RBF</td>
-      <td align="center">95.19</td>
-      <td align="center">86.44</td>
+      <td align="center">95.188</td>
+      <td align="center">95.259</td>
+      <td align="center">95.223</td>
+      <td align="center">95.215</td>
     </tr>
     <tr>
+      <td align="center"></td>
       <td align="center">Sigmoid</td>
-      <td align="center">19.75</td>
-      <td align="center">91.12</td>
+      <td align="center">19.750</td>
+      <td align="center">23.051</td>
+      <td align="center">19.919</td>
+      <td align="center">21.063</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center">Linear</td>
+      <td align="center">95.375</td>
+      <td align="center">95.480</td>
+      <td align="center">95.435</td>
+      <td align="center">95.429</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Polynomial</td>
+      <td align="center">75.625</td>
+      <td align="center">77.889</td>
+      <td align="center">75.660</td>
+      <td align="center">76.307</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">RBF</td>
+      <td align="center">86.437</td>
+      <td align="center">86.954</td>
+      <td align="center">86.499</td>
+      <td align="center">86.644</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Sigmoid</td>
+      <td align="center">89.250</td>
+      <td align="center">88.969</td>
+      <td align="center">88.958</td>
+      <td align="center">88.886</td>
     </tr>
   </tbody>
   </table>
-
+  
 * Test Dataset
   <table>
   <thead>
     <tr>
-      <th align="center">SVC Kernel</th>
-      <th align="center">Accuracy Rate (in %) <br> for Original Data</th>
-      <th align="center">Accuracy Rate (in %) <br> for Normalized Data</th>
+      <th align="center"></th>
+      <th align="center">Kernel</th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td align="center"><strong>Original Test Data</strong></td>
       <td align="center">Linear</td>
-      <td align="center">97.00</td>
-      <td align="center">97.00</td>
+      <td align="center">97.000</td>
+      <td align="center">97.023</td>
+      <td align="center">96.990</td>
+      <td align="center">96.920</td>
     </tr>
     <tr>
+      <td align="center"></td>
       <td align="center">Polynomial</td>
-      <td align="center">96.25</td>
-      <td align="center">78.75</td>
+      <td align="center">96.250</td>
+      <td align="center">96.156</td>
+      <td align="center">96.143</td>
+      <td align="center">96.137</td>
     </tr>
     <tr>
+      <td align="center"></td>
       <td align="center">RBF</td>
-      <td align="center">96.50</td>
-      <td align="center">89.25</td>
+      <td align="center">96.500</td>
+      <td align="center">96.368</td>
+      <td align="center">96.551</td>
+      <td align="center">96.439</td>
     </tr>
     <tr>
+      <td align="center"></td>
       <td align="center">Sigmoid</td>
-      <td align="center">17.50</td>
-      <td align="center">92.25</td>
+      <td align="center">17.500</td>
+      <td align="center">19.977</td>
+      <td align="center">16.878</td>
+      <td align="center">18.141</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Normalized Test Data</strong></td>
+      <td align="center">Linear</td>
+      <td align="center">97.000</td>
+      <td align="center">97.086</td>
+      <td align="center">96.975</td>
+      <td align="center">96.916</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Polynomial</td>
+      <td align="center">78.750</td>
+      <td align="center">79.024</td>
+      <td align="center">78.436</td>
+      <td align="center">78.483</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">RBF</td>
+      <td align="center">89.250</td>
+      <td align="center">88.969</td>
+      <td align="center">88.958</td>
+      <td align="center">88.886</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Sigmoid</td>
+      <td align="center">92.250</td>
+      <td align="center">92.016</td>
+      <td align="center">92.079</td>
+      <td align="center">92.027</td>
     </tr>
   </tbody>
   </table>
 
-For the linear, polynomial and rbf kernels, the accuracy rates remained the same or decreased after normalizing the data. On the other hand, for the sigmoid kernel, the accuracy rates improved by a huge extent after normalizing the data.
+For the linear, polynomial and rbf kernels, the performance metrics remained the same or decreased after normalizing the data. On the other hand, for the sigmoid kernel, the accuracy rates improved by a huge extent after normalizing the data.
