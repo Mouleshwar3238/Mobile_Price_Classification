@@ -340,3 +340,120 @@ A SVC was implemented using differenet kernels and confusion matrices and bar gr
   </table>
 
 For the linear, polynomial and rbf kernels, the performance metrics remained the same or decreased after normalizing the data. On the other hand, for the sigmoid kernel, the performance metrics improved by a huge extent after normalizing the data.
+
+## Decision Tree Classifier
+A decision tree classifier was implemented using different impurity measures (entropy and gini index) on the original as well as normalized data, and the confusion matrices and bar graphs were plotted for the corresponding results.
+* Cross Validation
+  <table>
+  <thead>
+    <tr>
+      <th align="center"></th>
+      <th align="center">Criterion</th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Original Data</strong></td>
+      <td align="center">Entropy</td>
+      <td align="center">85.062</td>
+      <td align="center">85.186</td>
+      <td align="center">85.178</td>
+      <td align="center">85.068</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Gini Index</td>
+      <td align="center">82.812</td>
+      <td align="center">82.965</td>
+      <td align="center">82.948</td>
+      <td align="center">82.857</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center">Entropy</td>
+      <td align="center">85.062</td>
+      <td align="center">85.186</td>
+      <td align="center">85.178</td>
+      <td align="center">85.068</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Gini Index</td>
+      <td align="center">82.812</td>
+      <td align="center">82.966</td>
+      <td align="center">82.948</td>
+      <td align="center">82.857</td>
+    </tr>
+  </tbody>
+  </table>
+  
+* Test Dataset
+  <table>
+  <thead>
+    <tr>
+     <tr>
+      <th align="center"></th>
+      <th align="center">Criterion</th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Original Data</strong></td>
+      <td align="center">Entropy</td>
+      <td align="center">85.000</td>
+      <td align="center">85.101</td>
+      <td align="center">84.829</td>
+      <td align="center">84.747</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Gini Index</td>
+      <td align="center">83.250</td>
+      <td align="center">82.942</td>
+      <td align="center">82.720</td>
+      <td align="center">82.671</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center">Entropy</td>
+      <td align="center">85.000</td>
+      <td align="center">85.101</td>
+      <td align="center">84.829</td>
+      <td align="center">84.747</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+       <td align="center">Gini Index</td>
+      <td align="center">83.750</td>
+      <td align="center">83.474</td>
+      <td align="center">83.266</td>
+      <td align="center">83.214</td>
+    </tr>
+  </tbody>
+  </table>
+
+The trees using entropy as the impurity measure, had slightly higher perfomance metrics, compared to the ones that used gini index. Also, normalizing the data didn't change the performance metrics in the cross validation as well as the testing phase.
