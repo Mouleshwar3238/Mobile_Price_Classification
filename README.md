@@ -40,8 +40,8 @@ For the KNN algorithm, the accuracy rates were computed for different values of 
   <thead>
     <tr>
       <th align="center"></th>
-      <th align="center">Original Data</th>
-      <th align="center">Normalized Data</th>
+      <th align="center">Original Test Data</th>
+      <th align="center">Normalized Test Data</th>
     </tr>
   </thead>
   <tbody>
@@ -51,22 +51,22 @@ For the KNN algorithm, the accuracy rates were computed for different values of 
       <td align="center">50</td>
     </tr>
     <tr>
-      <td align="center"><strong>Test Accuracy (in %) </strong></td>
+      <td align="center"><strong>Accuracy (in %)</strong></td>
       <td align="center">96.000</td>
       <td align="center">61.000</td>
     </tr>
     <tr>
-      <td align="center"><strong>Test Precision (in %) </strong></td>
+      <td align="center"><strong>Precision (in %)</strong></td>
       <td align="center">96.024</td>
       <td align="center">60.828</td>
     </tr>
     <tr>
-      <td align="center"><strong>Test Recall (in %) </strong></td>
+      <td align="center"><strong>Recall (in %)</strong></td>
       <td align="center">96.026</td>
       <td align="center">61.629</td>
     </tr>
     <tr>
-      <td align="center"><strong>Test F1 Score (in %) </strong></td>
+      <td align="center"><strong>F1 Score (in %)</strong></td>
       <td align="center">96.007</td>
       <td align="center">61.116</td>
     </tr>
@@ -76,31 +76,86 @@ For the KNN algorithm, the accuracy rates were computed for different values of 
   <table>
   <thead>
     <tr>
+      <th align="center"></th>
       <th align="center">Value of K</th>
-      <th align="center">Accuracy Rate (in %) <br> for Original Test Data</th>
-      <th align="center">Accuracy Rate (in %) <br> for Normalized Test Data</th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td align="center"><strong>Original Test Data</strong></td>
       <td align="center">3</td>
-      <td align="center">92.00</td>
-      <td align="center">41.50</td>
+      <td align="center">93.500</td>
+      <td align="center">93.515</td>
+      <td align="center">93.545</td>
+      <td align="center">93.522</td>
     </tr>
     <tr>
+      <td align="center"></td>
       <td align="center">5</td>
-      <td align="center">92.00</td>
-      <td align="center">45.25</td>
+      <td align="center">94.250</td>
+      <td align="center">94.314</td>
+      <td align="center">94.300</td>
+      <td align="center">94.300</td>
     </tr>
     <tr>
+      <td align="center"></td>
       <td align="center">20</td>
-      <td align="center">93.75</td>
-      <td align="center">59.50</td>
+      <td align="center">94.750</td>
+      <td align="center">94.750</td>
+      <td align="center">94.807</td>
+      <td align="center">94.774</td>
     </tr>
     <tr>
+      <td align="center"></td>
       <td align="center">40</td>
-      <td align="center">93.00</td>
-      <td align="center">61.00</td>
+      <td align="center">94.250</td>
+      <td align="center">94.233</td>
+      <td align="center">94.314</td>
+      <td align="center">94.265</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Normalized Test Data</strong></td>
+      <td align="center">3</td>
+      <td align="center">45.750</td>
+      <td align="center">46.711</td>
+      <td align="center">46.734</td>
+      <td align="center">45.564</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">5</td>
+      <td align="center">47.500</td>
+      <td align="center">48.458</td>
+      <td align="center">48.354</td>
+      <td align="center">47.957</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">20</td>
+      <td align="center">53.250</td>
+      <td align="center">53.037</td>
+      <td align="center">54.065</td>
+      <td align="center">53.376</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">40</td>
+      <td align="center">60.750</td>
+      <td align="center">60.280</td>
+      <td align="center">61.476</td>
+      <td align="center">60.701</td>
     </tr>
   </tbody>
   </table>
