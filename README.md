@@ -159,7 +159,7 @@ For the KNN algorithm, the accuracy rates were computed for different values of 
     </tr>
   </tbody>
   </table>
-The accuracy rates for the original data were quite high compared to that of the normalized data.
+The performance metrics for the original data were quite high compared to that of the normalized data.
 
 ## Support Vector Classifier (SVC)
 A SVC was implemented using differenet kernels and confusion matrices were plotted for the corresponding results.
