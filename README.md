@@ -72,6 +72,7 @@ For the KNN algorithm, the accuracy rates were computed for different values of 
     </tr>
   </tbody>
   </table>
+  
 * Other Values of K
   <table>
   <thead>
