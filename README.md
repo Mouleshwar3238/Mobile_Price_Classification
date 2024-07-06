@@ -265,7 +265,7 @@ A SVC was implemented using differenet kernels and confusion matrices and bar gr
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>Original Test Data</strong></td>
+      <td align="center"><strong>Original Data</strong></td>
       <td align="center">Linear</td>
       <td align="center">97.000</td>
       <td align="center">97.023</td>
@@ -305,7 +305,7 @@ A SVC was implemented using differenet kernels and confusion matrices and bar gr
       <td align="center"></td>
     </tr>
     <tr>
-      <td align="center"><strong>Normalized Test Data</strong></td>
+      <td align="center"><strong>Normalized Data</strong></td>
       <td align="center">Linear</td>
       <td align="center">97.000</td>
       <td align="center">97.086</td>
@@ -457,3 +457,183 @@ A decision tree classifier was implemented using different impurity measures (en
   </table>
 
 The trees using entropy as the impurity measure, had slightly higher perfomance metrics, compared to the ones that used gini index. Also, normalizing the data didn't change the performance metrics in the cross validation as well as the testing phase.
+
+## AdaBoost Classifier
+An AdaBoost Classifier was implemented using different base estimators and confusion matrices and bar graphs were plotted for the corresponding results.
+* Cross Validation
+  <table>
+  <thead>
+    <tr>
+      <th align="center"></th>
+      <th align="center">Base Estimator</th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Original Data</strong></td>
+      <td align="center">Decision Tree</td>
+      <td align="center">91.687</td>
+      <td align="center">91.831</td>
+      <td align="center">91.735</td>
+      <td align="center">91.744</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Logistic Regression</td>
+      <td align="center">75.562</td>
+      <td align="center">76.591</td>
+      <td align="center">75.673</td>
+      <td align="center">75.967</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Linear SVC</td>
+      <td align="center">71.938</td>
+      <td align="center">73.350</td>
+      <td align="center">72.027</td>
+      <td align="center">72.443</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Gaussian Naive Bayes</td>
+      <td align="center">89.250</td>
+      <td align="center">89.894</td>
+      <td align="center">89.275</td>
+      <td align="center">89.414</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center">Decision Tree</td>
+      <td align="center">91.687</td>
+      <td align="center">91.831</td>
+      <td align="center">91.735</td>
+      <td align="center">91.744</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Logistic Regression</td>
+      <td align="center">95.625</td>
+      <td align="center">95.754</td>
+      <td align="center">95.651</td>
+      <td align="center">95.658</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Linear SVC</td>
+      <td align="center">92.688</td>
+      <td align="center">92.798</td>
+      <td align="center">92.745</td>
+      <td align="center">92.693</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Gaussian Naive Bayes</td>
+      <td align="center">89.938</td>
+      <td align="center">90.279</td>
+      <td align="center">89.991</td>
+      <td align="center">90.047</td>
+    </tr>
+  </tbody>
+  </table>
+  
+* Test Dataset
+  <table>
+  <thead>
+    <tr>
+      <th align="center"></th>
+      <th align="center">Base Estimator</th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Original Data</strong></td>
+      <td align="center">Decision Tree</td>
+      <td align="center">91.000</td>
+      <td align="center">90.842</td>
+      <td align="center">90.875</td>
+      <td align="center">90.774</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Logistic Regression</td>
+      <td align="center">77.750</td>
+      <td align="center">78.254</td>
+      <td align="center">77.491</td>
+      <td align="center">77.607</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Linear SVC</td>
+      <td align="center">74.000</td>
+      <td align="center">75.451</td>
+      <td align="center">73.865</td>
+      <td align="center">74.089</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Gaussian Naive Bayes</td>
+      <td align="center">91.250</td>
+      <td align="center">91.173</td>
+      <td align="center">91.293</td>
+      <td align="center">91.129</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center">Decision Tree</td>
+      <td align="center">91.000</td>
+      <td align="center">90.842</td>
+      <td align="center">90.875</td>
+      <td align="center">90.774</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Logistic Regression</td>
+      <td align="center">96.500</td>
+      <td align="center">96.416</td>
+      <td align="center">96.537</td>
+      <td align="center">96.450</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Linear SVC</td>
+      <td align="center">93.000</td>
+      <td align="center">92.923</td>
+      <td align="center">92.832</td>
+      <td align="center">92.805</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Gaussian Naive Bayes</td>
+      <td align="center">91.250</td>
+      <td align="center">91.183</td>
+      <td align="center">91.293</td>
+      <td align="center">91.118</td>
+    </tr>
+  </tbody>
+  </table>
+
+The AdaBoost Classifier with decision tree as the base estimator did not see any improvement in the performance metrics even after normalization. On the othe hand, the one with Linear SVC as the base estimator saw a huge improvement in the performance metrics after normalization.
