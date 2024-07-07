@@ -755,3 +755,65 @@ A logistic regression classifier was implemented using different penalty terms, 
   </table>
 
 In the case of the L1 penalty term, there was no significant improvement in the performance metrics for the normalized data over the original data. On ther other hand, there was a slight improvement in the same for the L2 penalty term.
+
+## Gaussian Naive Bayes Classifier
+A Gaussian Naive Bayes classifier was implemented with prior probabilities being set as the probabilities of each class in the dataset, and confusion matrices and bar graphs were plotted for the corresponding results.
+* Cross Validation
+  <table>
+  <thead>
+    <tr>
+      <th align="center"></th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Original Data</strong></td>
+      <td align="center">79.875</td>
+      <td align="center">80.324</td>
+      <td align="center">80.072</td>
+      <td align="center">80.116</td>
+    <tr>
+      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center">79.938</td>
+      <td align="center">80.370</td>
+      <td align="center">80.136</td>
+      <td align="center">80.174</td>
+    </tr>
+  </tbody>
+  </table>
+  
+* Test Dataset
+  <table>
+  <thead>
+    <tr>
+     <tr>
+      <th align="center"></th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Original Data</strong></td>
+      <td align="center">80.250</td>
+      <td align="center">80.268</td>
+      <td align="center">79.919</td>
+      <td align="center">79.748</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center">80.250</td>
+      <td align="center">80.268</td>
+      <td align="center">79.919</td>
+      <td align="center">79.948</td>
+    </tr>
+  </tbody>
+  </table>
+
+In the cross validation phase, there was a slight improvement in the performance metrics for the normalized data over the normalized data. On the other hand, there was no improvement in the same in the testing phase.
