@@ -640,7 +640,7 @@ An AdaBoost Classifier was implemented using different base estimators, and conf
 The AdaBoost Classifier with decision tree as the base estimator did not see any improvement in the performance metrics even after normalization. On the othe hand, the one with Linear SVC as the base estimator saw a huge improvement in the performance metrics after normalization.
 
 ## Logistic Regression Classifier
-A logistic regression classifier was implemented using different penalty terms, and confusion matrices and bar graphs were plotted for the corresponding results.
+A logistic regression classifier was implemented using different penalty terms, and confusion matrices and bar graphs were plotted for the corresponding results. The best value of the regularization parameter C was chosen by computing the performance metrics for different values of C and plotting a graph for the former versus the latter.
 * Cross Validation
   <table>
   <thead>
@@ -657,18 +657,18 @@ A logistic regression classifier was implemented using different penalty terms, 
     <tr>
       <td align="center"><strong>Original Data</strong></td>
       <td align="center">L1</td>
-      <td align="center">85.312</td>
-      <td align="center">85.423</td>
-      <td align="center">85.595</td>
-      <td align="center">85.414</td>
+      <td align="center">85.625</td>
+      <td align="center">85.686</td>
+      <td align="center">85.909</td>
+      <td align="center">85.716</td>
     </tr>
     <tr>
       <td align="center"></td>
       <td align="center">L2</td>
-      <td align="center">79.562</td>
-      <td align="center">79.115</td>
-      <td align="center">79.918</td>
-      <td align="center">79.383</td>
+      <td align="center">81.938</td>
+      <td align="center">81.452</td>
+      <td align="center">82.292</td>
+      <td align="center">81.633</td>
     </tr>
     <tr>
       <td align="center"></td>
@@ -681,18 +681,18 @@ A logistic regression classifier was implemented using different penalty terms, 
     <tr>
       <td align="center"><strong>Normalized Data</strong></td>
       <td align="center">L1</td>
-      <td align="center">85.668</td>
-      <td align="center">85.988</td>
-      <td align="center">85.954</td>
-      <td align="center">85.892</td>
+      <td align="center">85.750</td>
+      <td align="center">85.942</td>
+      <td align="center">86.026</td>
+      <td align="center">85.898</td>
     </tr>
     <tr>
       <td align="center"></td>
       <td align="center">L2</td>
-      <td align="center">85.312</td>
-      <td align="center">85.322</td>
-      <td align="center">85.605</td>
-      <td align="center">85.369</td>
+      <td align="center">85.500</td>
+      <td align="center">85.541</td>
+      <td align="center">85.790</td>
+      <td align="center">85.570</td>
     </tr>
   </tbody>
   </table>
@@ -714,18 +714,18 @@ A logistic regression classifier was implemented using different penalty terms, 
     <tr>
       <td align="center"><strong>Original Data</strong></td>
       <td align="center">L1</td>
-      <td align="center">88.500</td>
-      <td align="center">87.785</td>
-      <td align="center">87.614</td>
-      <td align="center">87.654</td>
+      <td align="center">88.250</td>
+      <td align="center">87.505</td>
+      <td align="center">87.343</td>
+      <td align="center">87.384</td>
     </tr>
     <tr>
       <td align="center"></td>
       <td align="center">L2</td>
-      <td align="center">84.750</td>
-      <td align="center">83.448</td>
-      <td align="center">83.567</td>
-      <td align="center">83.452</td>
+      <td align="center">83.500</td>
+      <td align="center">82.037</td>
+      <td align="center">82.196</td>
+      <td align="center">82.041</td>
     </tr>
     <tr>
       <td align="center"></td>
@@ -747,11 +747,11 @@ A logistic regression classifier was implemented using different penalty terms, 
       <td align="center"></td>
        <td align="center">L2</td>
       <td align="center">88.250</td>
-      <td align="center">87.428</td>
-      <td align="center">87.306</td>
-      <td align="center">87.321</td>
+      <td align="center">87.505</td>
+      <td align="center">87.343</td>
+      <td align="center">87.384</td>
     </tr>
   </tbody>
   </table>
 
-The classifier had an improvement in performance on the normalized data compared to the original data, and this was significantly observed in the case of the L2 penalty term.
+In the case of the L1 penalty term, there was no significant improvement in the performance metrics for the normalized data over the original data. On ther other hand, there was a slight improvement in the same for the L2 penalty term.
