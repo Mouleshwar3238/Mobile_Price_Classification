@@ -163,7 +163,7 @@ For the KNN algorithm, the accuracy rates were computed for different values of 
 The performance metrics for the original data were quite high compared to that of the normalized data.
 
 ## Support Vector Classifier (SVC)
-A SVC was implemented using differenet kernels and confusion matrices and bar graphs were plotted for the corresponding results.
+A SVC was implemented using differenet kernels, and confusion matrices and bar graphs were plotted for the corresponding results.
 * Cross Validation
   <table>
   <thead>
@@ -343,7 +343,7 @@ A SVC was implemented using differenet kernels and confusion matrices and bar gr
 For the linear, polynomial and rbf kernels, the performance metrics remained the same or decreased after normalizing the data. On the other hand, for the sigmoid kernel, the performance metrics improved by a huge extent after normalizing the data.
 
 ## Decision Tree Classifier
-A decision tree classifier was implemented using different impurity measures (entropy and gini index) on the original as well as normalized data, and the confusion matrices and bar graphs were plotted for the corresponding results.
+A decision tree classifier was implemented using different impurity measures (entropy and gini index), and confusion matrices and bar graphs were plotted for the corresponding results.
 * Cross Validation
   <table>
   <thead>
@@ -460,7 +460,7 @@ A decision tree classifier was implemented using different impurity measures (en
 The trees using entropy as the impurity measure, had slightly higher perfomance metrics, compared to the ones that used gini index. Also, normalizing the data didn't change the performance metrics in the cross validation as well as the testing phase.
 
 ## AdaBoost Classifier
-An AdaBoost Classifier was implemented using different base estimators and confusion matrices and bar graphs were plotted for the corresponding results.
+An AdaBoost Classifier was implemented using different base estimators, and confusion matrices and bar graphs were plotted for the corresponding results.
 * Cross Validation
   <table>
   <thead>
@@ -638,3 +638,120 @@ An AdaBoost Classifier was implemented using different base estimators and confu
   </table>
 
 The AdaBoost Classifier with decision tree as the base estimator did not see any improvement in the performance metrics even after normalization. On the othe hand, the one with Linear SVC as the base estimator saw a huge improvement in the performance metrics after normalization.
+
+## Logistic Regression Classifier
+A logistic regression classifier was implemented using different penalty terms, and confusion matrices and bar graphs were plotted for the corresponding results.
+* Cross Validation
+  <table>
+  <thead>
+    <tr>
+      <th align="center"></th>
+      <th align="center">Penalty Term</th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Original Data</strong></td>
+      <td align="center">L1</td>
+      <td align="center">85.312</td>
+      <td align="center">85.423</td>
+      <td align="center">85.595</td>
+      <td align="center">85.414</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">L2</td>
+      <td align="center">79.562</td>
+      <td align="center">79.115</td>
+      <td align="center">79.918</td>
+      <td align="center">79.383</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center">L1</td>
+      <td align="center">85.668</td>
+      <td align="center">85.988</td>
+      <td align="center">85.954</td>
+      <td align="center">85.892</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">L2</td>
+      <td align="center">85.312</td>
+      <td align="center">85.322</td>
+      <td align="center">85.605</td>
+      <td align="center">85.369</td>
+    </tr>
+  </tbody>
+  </table>
+  
+* Test Dataset
+  <table>
+  <thead>
+    <tr>
+     <tr>
+      <th align="center"></th>
+      <th align="center">Penalty Term</th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Original Data</strong></td>
+      <td align="center">L1</td>
+      <td align="center">88.500</td>
+      <td align="center">87.785</td>
+      <td align="center">87.614</td>
+      <td align="center">87.654</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">L2</td>
+      <td align="center">84.750</td>
+      <td align="center">83.448</td>
+      <td align="center">83.567</td>
+      <td align="center">83.452</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center">L1</td>
+      <td align="center">88.250</td>
+      <td align="center">87.598</td>
+      <td align="center">87.376</td>
+      <td align="center">87.429</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+       <td align="center">L2</td>
+      <td align="center">88.250</td>
+      <td align="center">87.428</td>
+      <td align="center">87.306</td>
+      <td align="center">87.321</td>
+    </tr>
+  </tbody>
+  </table>
+
+The classifier had an improvement in performance on the normalized data compared to the original data, and this was significantly observed in the case of the L2 penalty term.
