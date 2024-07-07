@@ -160,7 +160,6 @@ For the KNN algorithm, the accuracy rates were computed for different values of 
     </tr>
   </tbody>
   </table>
-The performance metrics for the original data were quite high compared to that of the normalized data.
 
 ## Support Vector Classifier (SVC)
 A SVC was implemented using differenet kernels, and confusion matrices and bar graphs were plotted for the corresponding results.
@@ -340,8 +339,6 @@ A SVC was implemented using differenet kernels, and confusion matrices and bar g
   </tbody>
   </table>
 
-For the linear, polynomial and rbf kernels, the performance metrics remained the same or decreased after normalizing the data. On the other hand, for the sigmoid kernel, the performance metrics improved by a huge extent after normalizing the data.
-
 ## Decision Tree Classifier
 A decision tree classifier was implemented using different impurity measures (entropy and gini index), and confusion matrices and bar graphs were plotted for the corresponding results.
 * Cross Validation
@@ -456,8 +453,6 @@ A decision tree classifier was implemented using different impurity measures (en
     </tr>
   </tbody>
   </table>
-
-The trees using entropy as the impurity measure, had slightly higher perfomance metrics, compared to the ones that used gini index. Also, normalizing the data didn't change the performance metrics in the cross validation as well as the testing phase.
 
 ## AdaBoost Classifier
 An AdaBoost Classifier was implemented using different base estimators, and confusion matrices and bar graphs were plotted for the corresponding results.
@@ -637,8 +632,6 @@ An AdaBoost Classifier was implemented using different base estimators, and conf
   </tbody>
   </table>
 
-The AdaBoost Classifier with decision tree as the base estimator did not see any improvement in the performance metrics even after normalization. On the othe hand, the one with Linear SVC as the base estimator saw a huge improvement in the performance metrics after normalization.
-
 ## Logistic Regression Classifier
 A logistic regression classifier was implemented using different penalty terms, and confusion matrices and bar graphs were plotted for the corresponding results. The best value of the regularization parameter C was chosen by computing the performance metrics for different values of C and plotting a graph for the former versus the latter.
 * Cross Validation
@@ -754,8 +747,6 @@ A logistic regression classifier was implemented using different penalty terms, 
   </tbody>
   </table>
 
-In the case of the L1 penalty term, there was no significant improvement in the performance metrics for the normalized data over the original data. On ther other hand, there was a slight improvement in the same for the L2 penalty term.
-
 ## Gaussian Naive Bayes Classifier
 A Gaussian Naive Bayes classifier was implemented with prior probabilities being set as the probabilities of each class in the dataset, and confusion matrices and bar graphs were plotted for the corresponding results.
 * Cross Validation
@@ -816,4 +807,148 @@ A Gaussian Naive Bayes classifier was implemented with prior probabilities being
   </tbody>
   </table>
 
-In the cross validation phase, there was a slight improvement in the performance metrics for the normalized data over the normalized data. On the other hand, there was no improvement in the same in the testing phase.
+## Multi-Layer Perceptron
+An Multi-Layer Perceptron classifier was implemented with 50 nodes in the hidden layer with different activation functions, and confusion matrices and bar graphs were plotted for the corresponding results.
+* Cross Validation
+  <table>
+  <thead>
+    <tr>
+      <th align="center"></th>
+      <th align="center">Activation Function</th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Original Data</strong></td>
+      <td align="center">Logistic/Sigmoid</td>
+      <td align="center">72.625</td>
+      <td align="center">73.228</td>
+      <td align="center">72.809</td>
+      <td align="center">72.819</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Tanh</td>
+      <td align="center">63.062</td>
+      <td align="center">62.495</td>
+      <td align="center">63.443</td>
+      <td align="center">62.380</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">ReLU</td>
+      <td align="center">62.438</td>
+      <td align="center">64.720</td>
+      <td align="center">62.783</td>
+      <td align="center">60.682</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center">Logistic/Sigmoid</td>
+      <td align="center">94.562</td>
+      <td align="center">94.656</td>
+      <td align="center">94.612</td>
+      <td align="center">94.596</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Tanh</td>
+      <td align="center">93.812</td>
+      <td align="center">93.906</td>
+      <td align="center">93.868</td>
+      <td align="center">93.860</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">ReLU</td>
+      <td align="center">90.938</td>
+      <td align="center">91.066</td>
+      <td align="center">91.000</td>
+      <td align="center">90.991</td>
+    </tr>
+  </tbody>
+  </table>
+  
+* Test Dataset
+  <table>
+  <thead>
+    <tr>
+      <th align="center"></th>
+      <th align="center">Activation Function</th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Original Data</strong></td>
+      <td align="center">Logistic/Sigmoid</td>
+      <td align="center">73.000</td>
+      <td align="center">72.119</td>
+      <td align="center">72.243</td>
+      <td align="center">72.168</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Tanh</td>
+      <td align="center">72.000</td>
+      <td align="center">72.331</td>
+      <td align="center">71.157</td>
+      <td align="center">71.397</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">ReLU</td>
+      <td align="center">62.500</td>
+      <td align="center">64.794</td>
+      <td align="center">62.120</td>
+      <td align="center">62.618</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center">Logistic/Sigmoid</td>
+      <td align="center">95.750</td>
+      <td align="center">95.705</td>
+      <td align="center">95.773</td>
+      <td align="center">95.689</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Tanh</td>
+      <td align="center">96.250</td>
+      <td align="center">96.236</td>
+      <td align="center">96.167</td>
+      <td align="center">96.162</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">ReLU</td>
+      <td align="center">93.500</td>
+      <td align="center">93.436</td>
+      <td align="center">93.452</td>
+      <td align="center">93.383</td>
+    </tr>
+  </tbody>
+  </table>
