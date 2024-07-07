@@ -658,10 +658,10 @@ A logistic regression classifier was implemented using different penalty terms, 
     <tr>
       <td align="center"></td>
       <td align="center">L2</td>
-      <td align="center">81.938</td>
-      <td align="center">81.452</td>
-      <td align="center">82.292</td>
-      <td align="center">81.633</td>
+      <td align="center">81.875</td>
+      <td align="center">81.506</td>
+      <td align="center">82.219</td>
+      <td align="center">81.738</td>
     </tr>
     <tr>
       <td align="center"></td>
@@ -675,9 +675,9 @@ A logistic regression classifier was implemented using different penalty terms, 
       <td align="center"><strong>Normalized Data</strong></td>
       <td align="center">L1</td>
       <td align="center">85.750</td>
-      <td align="center">85.942</td>
-      <td align="center">86.026</td>
-      <td align="center">85.898</td>
+      <td align="center">86.002</td>
+      <td align="center">86.020</td>
+      <td align="center">85.929</td>
     </tr>
     <tr>
       <td align="center"></td>
@@ -715,10 +715,10 @@ A logistic regression classifier was implemented using different penalty terms, 
     <tr>
       <td align="center"></td>
       <td align="center">L2</td>
-      <td align="center">83.500</td>
-      <td align="center">82.037</td>
-      <td align="center">82.196</td>
-      <td align="center">82.041</td>
+      <td align="center">84.750</td>
+      <td align="center">83.469</td>
+      <td align="center">83.567</td>
+      <td align="center">83.447</td>
     </tr>
     <tr>
       <td align="center"></td>
@@ -949,6 +949,121 @@ An Multi-Layer Perceptron classifier was implemented with 50 nodes in the hidden
       <td align="center">93.436</td>
       <td align="center">93.452</td>
       <td align="center">93.383</td>
+    </tr>
+  </tbody>
+  </table>
+
+## Random Forest Classifier
+A random forest classifier was implemented using different impurity measures (entropy and gini index), and confusion matrices and bar graphs were plotted for the corresponding results. The optimal number of estimators was chosen by computing the performance metrics for different number of estimators and plotting a graph for the former versus the latter.
+* Cross Validation
+  <table>
+  <thead>
+    <tr>
+      <th align="center"></th>
+      <th align="center">Criterion</th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Original Data</strong></td>
+      <td align="center">Entropy</td>
+      <td align="center">88.188</td>
+      <td align="center">88.499</td>
+      <td align="center">88.281</td>
+      <td align="center">88.323</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Gini Index</td>
+      <td align="center">88.062</td>
+      <td align="center">88.303</td>
+      <td align="center">88.151</td>
+      <td align="center">88.184</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center">Entropy</td>
+      <td align="center">88.125</td>
+      <td align="center">88.411</td>
+      <td align="center">88.222</td>
+      <td align="center">88.256</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Gini Index</td>
+      <td align="center">87.937</td>
+      <td align="center">88.103</td>
+      <td align="center">88.035</td>
+      <td align="center">88.030</td>
+    </tr>
+  </tbody>
+  </table>
+  
+* Test Dataset
+  <table>
+  <thead>
+    <tr>
+     <tr>
+      <th align="center"></th>
+      <th align="center">Criterion</th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Original Data</strong></td>
+      <td align="center">Entropy</td>
+      <td align="center">90.000</td>
+      <td align="center">89.633</td>
+      <td align="center">89.633</td>
+      <td align="center">89.633</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Gini Index</td>
+      <td align="center">89.000</td>
+      <td align="center">88.722</td>
+      <td align="center">88.719</td>
+      <td align="center">88.683</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center">Entropy</td>
+      <td align="center">90.500</td>
+      <td align="center">90.170</td>
+      <td align="center">90.183</td>
+      <td align="center">890.172</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+       <td align="center">Gini Index</td>
+      <td align="center">88.750</td>
+      <td align="center">88.447</td>
+      <td align="center">88.498</td>
+      <td align="center">88.441</td>
     </tr>
   </tbody>
   </table>
