@@ -1067,3 +1067,118 @@ A random forest classifier was implemented using different impurity measures (en
     </tr>
   </tbody>
   </table>
+
+## Gradient Boosting Classifier
+A gradient boosting classifier was implemented using different criterion, and confusion matrices and bar graphs were plotted for the corresponding results. The optimal number of estimators was chosen by computing the performance metrics for different number of estimators and plotting a graph for the former versus the latter.
+* Cross Validation
+  <table>
+  <thead>
+    <tr>
+      <th align="center"></th>
+      <th align="center">Criterion</th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Original Data</strong></td>
+      <td align="center">Friedman MSE</td>
+      <td align="center">90.625</td>
+      <td align="center">90.773</td>
+      <td align="center">90.684</td>
+      <td align="center">90.699</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Squared Error</td>
+      <td align="center">90.812</td>
+      <td align="center">90.925</td>
+      <td align="center">90.876</td>
+      <td align="center">90.884</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center">Friedman MSE</td>
+      <td align="center">90.750</td>
+      <td align="center">90.856</td>
+      <td align="center">90.815</td>
+      <td align="center">90.820</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Squared Error</td>
+      <td align="center">90.750</td>
+      <td align="center">90.856</td>
+      <td align="center">90.815</td>
+      <td align="center">90.820</td>
+    </tr>
+  </tbody>
+  </table>
+  
+* Test Dataset
+  <table>
+  <thead>
+    <tr>
+     <tr>
+      <th align="center"></th>
+      <th align="center">Criterion</th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Original Data</strong></td>
+      <td align="center">Friedman MSE</td>
+      <td align="center">91.500</td>
+      <td align="center">91.240</td>
+      <td align="center">91.363</td>
+      <td align="center">91.279</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center">Squared Error</td>
+      <td align="center">92.000</td>
+      <td align="center">91.772</td>
+      <td align="center">91.909</td>
+      <td align="center">91.818</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+      <td align="center"></td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center">Friedman MSE</td>
+      <td align="center">92.000</td>
+      <td align="center">91.772</td>
+      <td align="center">91.909</td>
+      <td align="center">91.818</td>
+    </tr>
+    <tr>
+      <td align="center"></td>
+       <td align="center">Squared Error</td>
+      <td align="center">92.000</td>
+      <td align="center">91.772</td>
+      <td align="center">91.909</td>
+      <td align="center">91.818</td>
+    </tr>
+  </tbody>
+  </table>
