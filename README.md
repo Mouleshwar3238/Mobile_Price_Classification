@@ -87,7 +87,7 @@ For the KNN algorithm, the accuracy rates were computed for different values of 
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>Original Test Data</strong></td>
+      <td align="center" rowspan="4"><strong>Original Test Data</strong></td>
       <td align="center">3</td>
       <td align="center">93.500</td>
       <td align="center">93.515</td>
@@ -95,7 +95,6 @@ For the KNN algorithm, the accuracy rates were computed for different values of 
       <td align="center">93.522</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">5</td>
       <td align="center">94.250</td>
       <td align="center">94.314</td>
@@ -103,7 +102,6 @@ For the KNN algorithm, the accuracy rates were computed for different values of 
       <td align="center">94.300</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">20</td>
       <td align="center">94.750</td>
       <td align="center">94.750</td>
@@ -111,7 +109,6 @@ For the KNN algorithm, the accuracy rates were computed for different values of 
       <td align="center">94.774</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">40</td>
       <td align="center">94.250</td>
       <td align="center">94.233</td>
@@ -124,10 +121,9 @@ For the KNN algorithm, the accuracy rates were computed for different values of 
       <td align="center"></td>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
     </tr>
     <tr>
-      <td align="center"><strong>Normalized Test Data</strong></td>
+      <td align="center" rowspan="4"><strong>Normalized Test Data</strong></td>
       <td align="center">3</td>
       <td align="center">45.750</td>
       <td align="center">46.711</td>
@@ -135,7 +131,6 @@ For the KNN algorithm, the accuracy rates were computed for different values of 
       <td align="center">45.564</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">5</td>
       <td align="center">47.500</td>
       <td align="center">48.458</td>
@@ -143,7 +138,6 @@ For the KNN algorithm, the accuracy rates were computed for different values of 
       <td align="center">47.957</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">20</td>
       <td align="center">53.250</td>
       <td align="center">53.037</td>
@@ -151,7 +145,6 @@ For the KNN algorithm, the accuracy rates were computed for different values of 
       <td align="center">53.376</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">40</td>
       <td align="center">60.750</td>
       <td align="center">60.280</td>
@@ -177,7 +170,7 @@ A SVC was implemented using differenet kernels, and confusion matrices and bar g
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>Original Data</strong></td>
+      <td align="center" rowspan="4"><strong>Original Data</strong></td>
       <td align="center">Linear</td>
       <td align="center">97.250</td>
       <td align="center">97.274</td>
@@ -185,7 +178,6 @@ A SVC was implemented using differenet kernels, and confusion matrices and bar g
       <td align="center">97.264</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Polynomial</td>
       <td align="center">95.438</td>
       <td align="center">95.513</td>
@@ -193,7 +185,6 @@ A SVC was implemented using differenet kernels, and confusion matrices and bar g
       <td align="center">95.454</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">RBF</td>
       <td align="center">95.188</td>
       <td align="center">95.259</td>
@@ -201,7 +192,6 @@ A SVC was implemented using differenet kernels, and confusion matrices and bar g
       <td align="center">95.215</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Sigmoid</td>
       <td align="center">19.750</td>
       <td align="center">23.051</td>
@@ -214,10 +204,9 @@ A SVC was implemented using differenet kernels, and confusion matrices and bar g
       <td align="center"></td>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
     </tr>
     <tr>
-      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center" rowspan="4"><strong>Normalized Data</strong></td>
       <td align="center">Linear</td>
       <td align="center">95.375</td>
       <td align="center">95.480</td>
@@ -225,7 +214,6 @@ A SVC was implemented using differenet kernels, and confusion matrices and bar g
       <td align="center">95.429</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Polynomial</td>
       <td align="center">75.625</td>
       <td align="center">77.889</td>
@@ -233,7 +221,6 @@ A SVC was implemented using differenet kernels, and confusion matrices and bar g
       <td align="center">76.307</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">RBF</td>
       <td align="center">86.437</td>
       <td align="center">86.954</td>
@@ -241,7 +228,6 @@ A SVC was implemented using differenet kernels, and confusion matrices and bar g
       <td align="center">86.644</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Sigmoid</td>
       <td align="center">91.125</td>
       <td align="center">91.316</td>
@@ -265,7 +251,7 @@ A SVC was implemented using differenet kernels, and confusion matrices and bar g
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>Original Data</strong></td>
+      <td align="center" rowspan="4"><strong>Original Data</strong></td>
       <td align="center">Linear</td>
       <td align="center">97.000</td>
       <td align="center">97.023</td>
@@ -273,7 +259,6 @@ A SVC was implemented using differenet kernels, and confusion matrices and bar g
       <td align="center">96.920</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Polynomial</td>
       <td align="center">96.250</td>
       <td align="center">96.156</td>
@@ -281,7 +266,6 @@ A SVC was implemented using differenet kernels, and confusion matrices and bar g
       <td align="center">96.137</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">RBF</td>
       <td align="center">96.500</td>
       <td align="center">96.368</td>
@@ -289,7 +273,6 @@ A SVC was implemented using differenet kernels, and confusion matrices and bar g
       <td align="center">96.439</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Sigmoid</td>
       <td align="center">17.500</td>
       <td align="center">19.977</td>
@@ -302,10 +285,9 @@ A SVC was implemented using differenet kernels, and confusion matrices and bar g
       <td align="center"></td>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
     </tr>
     <tr>
-      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center" rowspan="4"><strong>Normalized Data</strong></td>
       <td align="center">Linear</td>
       <td align="center">97.000</td>
       <td align="center">97.086</td>
@@ -313,7 +295,6 @@ A SVC was implemented using differenet kernels, and confusion matrices and bar g
       <td align="center">96.916</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Polynomial</td>
       <td align="center">78.750</td>
       <td align="center">79.024</td>
@@ -321,7 +302,6 @@ A SVC was implemented using differenet kernels, and confusion matrices and bar g
       <td align="center">78.483</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">RBF</td>
       <td align="center">89.250</td>
       <td align="center">88.969</td>
@@ -329,7 +309,6 @@ A SVC was implemented using differenet kernels, and confusion matrices and bar g
       <td align="center">88.886</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Sigmoid</td>
       <td align="center">92.250</td>
       <td align="center">92.016</td>
@@ -355,7 +334,7 @@ A decision tree classifier was implemented using different impurity measures (en
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>Original Data</strong></td>
+      <td align="center" rowspan="2"><strong>Original Data</strong></td>
       <td align="center">Entropy</td>
       <td align="center">85.062</td>
       <td align="center">85.186</td>
@@ -363,7 +342,6 @@ A decision tree classifier was implemented using different impurity measures (en
       <td align="center">85.068</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Gini Index</td>
       <td align="center">82.812</td>
       <td align="center">82.965</td>
@@ -376,10 +354,9 @@ A decision tree classifier was implemented using different impurity measures (en
       <td align="center"></td>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
     </tr>
     <tr>
-      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center" rowspan="2"><strong>Normalized Data</strong></td>
       <td align="center">Entropy</td>
       <td align="center">85.062</td>
       <td align="center">85.186</td>
@@ -387,7 +364,6 @@ A decision tree classifier was implemented using different impurity measures (en
       <td align="center">85.068</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Gini Index</td>
       <td align="center">82.812</td>
       <td align="center">82.966</td>
@@ -412,7 +388,7 @@ A decision tree classifier was implemented using different impurity measures (en
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>Original Data</strong></td>
+      <td align="center" rowspan="2"><strong>Original Data</strong></td>
       <td align="center">Entropy</td>
       <td align="center">85.000</td>
       <td align="center">85.101</td>
@@ -420,7 +396,6 @@ A decision tree classifier was implemented using different impurity measures (en
       <td align="center">84.747</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Gini Index</td>
       <td align="center">83.250</td>
       <td align="center">82.942</td>
@@ -433,10 +408,9 @@ A decision tree classifier was implemented using different impurity measures (en
       <td align="center"></td>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
     </tr>
     <tr>
-      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center" rowspan="2"><strong>Normalized Data</strong></td>
       <td align="center">Entropy</td>
       <td align="center">85.000</td>
       <td align="center">85.101</td>
@@ -444,8 +418,7 @@ A decision tree classifier was implemented using different impurity measures (en
       <td align="center">84.747</td>
     </tr>
     <tr>
-      <td align="center"></td>
-       <td align="center">Gini Index</td>
+      <td align="center">Gini Index</td>
       <td align="center">83.750</td>
       <td align="center">83.474</td>
       <td align="center">83.266</td>
@@ -470,7 +443,7 @@ An AdaBoost Classifier was implemented using different base estimators, and conf
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>Original Data</strong></td>
+      <td align="center" rowspan="4"><strong>Original Data</strong></td>
       <td align="center">Decision Tree</td>
       <td align="center">91.687</td>
       <td align="center">91.831</td>
@@ -478,7 +451,6 @@ An AdaBoost Classifier was implemented using different base estimators, and conf
       <td align="center">91.744</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Logistic Regression</td>
       <td align="center">75.562</td>
       <td align="center">76.591</td>
@@ -486,7 +458,6 @@ An AdaBoost Classifier was implemented using different base estimators, and conf
       <td align="center">75.967</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Linear SVC</td>
       <td align="center">71.938</td>
       <td align="center">73.350</td>
@@ -494,7 +465,6 @@ An AdaBoost Classifier was implemented using different base estimators, and conf
       <td align="center">72.443</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Gaussian Naive Bayes</td>
       <td align="center">89.250</td>
       <td align="center">89.894</td>
@@ -507,10 +477,9 @@ An AdaBoost Classifier was implemented using different base estimators, and conf
       <td align="center"></td>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
     </tr>
     <tr>
-      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center" rowspan="4"><strong>Normalized Data</strong></td>
       <td align="center">Decision Tree</td>
       <td align="center">91.687</td>
       <td align="center">91.831</td>
@@ -518,7 +487,6 @@ An AdaBoost Classifier was implemented using different base estimators, and conf
       <td align="center">91.744</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Logistic Regression</td>
       <td align="center">95.625</td>
       <td align="center">95.754</td>
@@ -526,7 +494,6 @@ An AdaBoost Classifier was implemented using different base estimators, and conf
       <td align="center">95.658</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Linear SVC</td>
       <td align="center">92.688</td>
       <td align="center">92.798</td>
@@ -534,7 +501,6 @@ An AdaBoost Classifier was implemented using different base estimators, and conf
       <td align="center">92.693</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Gaussian Naive Bayes</td>
       <td align="center">89.938</td>
       <td align="center">90.279</td>
@@ -558,7 +524,7 @@ An AdaBoost Classifier was implemented using different base estimators, and conf
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>Original Data</strong></td>
+      <td align="center" rowspan="4"><strong>Original Data</strong></td>
       <td align="center">Decision Tree</td>
       <td align="center">91.000</td>
       <td align="center">90.842</td>
@@ -566,7 +532,6 @@ An AdaBoost Classifier was implemented using different base estimators, and conf
       <td align="center">90.774</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Logistic Regression</td>
       <td align="center">77.750</td>
       <td align="center">78.254</td>
@@ -574,7 +539,6 @@ An AdaBoost Classifier was implemented using different base estimators, and conf
       <td align="center">77.607</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Linear SVC</td>
       <td align="center">74.000</td>
       <td align="center">75.451</td>
@@ -582,7 +546,6 @@ An AdaBoost Classifier was implemented using different base estimators, and conf
       <td align="center">74.089</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Gaussian Naive Bayes</td>
       <td align="center">91.250</td>
       <td align="center">91.173</td>
@@ -595,10 +558,9 @@ An AdaBoost Classifier was implemented using different base estimators, and conf
       <td align="center"></td>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
     </tr>
     <tr>
-      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center" rowspan="4"><strong>Normalized Data</strong></td>
       <td align="center">Decision Tree</td>
       <td align="center">91.000</td>
       <td align="center">90.842</td>
@@ -606,7 +568,6 @@ An AdaBoost Classifier was implemented using different base estimators, and conf
       <td align="center">90.774</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Logistic Regression</td>
       <td align="center">96.500</td>
       <td align="center">96.416</td>
@@ -614,7 +575,6 @@ An AdaBoost Classifier was implemented using different base estimators, and conf
       <td align="center">96.450</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Linear SVC</td>
       <td align="center">93.000</td>
       <td align="center">92.923</td>
@@ -622,7 +582,6 @@ An AdaBoost Classifier was implemented using different base estimators, and conf
       <td align="center">92.805</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Gaussian Naive Bayes</td>
       <td align="center">91.250</td>
       <td align="center">91.183</td>
@@ -648,7 +607,7 @@ A logistic regression classifier was implemented using different penalty terms, 
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>Original Data</strong></td>
+      <td align="center" rowspan="2"><strong>Original Data</strong></td>
       <td align="center">L1</td>
       <td align="center">85.625</td>
       <td align="center">85.686</td>
@@ -656,7 +615,6 @@ A logistic regression classifier was implemented using different penalty terms, 
       <td align="center">85.716</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">L2</td>
       <td align="center">81.875</td>
       <td align="center">81.506</td>
@@ -669,10 +627,9 @@ A logistic regression classifier was implemented using different penalty terms, 
       <td align="center"></td>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
     </tr>
     <tr>
-      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center" rowspan="2"><strong>Normalized Data</strong></td>
       <td align="center">L1</td>
       <td align="center">85.750</td>
       <td align="center">86.002</td>
@@ -680,7 +637,6 @@ A logistic regression classifier was implemented using different penalty terms, 
       <td align="center">85.929</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">L2</td>
       <td align="center">85.500</td>
       <td align="center">85.541</td>
@@ -705,7 +661,7 @@ A logistic regression classifier was implemented using different penalty terms, 
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>Original Data</strong></td>
+      <td align="center" rowspan="2"><strong>Original Data</strong></td>
       <td align="center">L1</td>
       <td align="center">88.250</td>
       <td align="center">87.505</td>
@@ -713,7 +669,6 @@ A logistic regression classifier was implemented using different penalty terms, 
       <td align="center">87.384</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">L2</td>
       <td align="center">84.750</td>
       <td align="center">83.469</td>
@@ -726,10 +681,9 @@ A logistic regression classifier was implemented using different penalty terms, 
       <td align="center"></td>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
     </tr>
     <tr>
-      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center" rowspan="2"><strong>Normalized Data</strong></td>
       <td align="center">L1</td>
       <td align="center">88.250</td>
       <td align="center">87.598</td>
@@ -737,8 +691,7 @@ A logistic regression classifier was implemented using different penalty terms, 
       <td align="center">87.429</td>
     </tr>
     <tr>
-      <td align="center"></td>
-       <td align="center">L2</td>
+      <td align="center">L2</td>
       <td align="center">88.250</td>
       <td align="center">87.505</td>
       <td align="center">87.343</td>
@@ -823,7 +776,7 @@ An Multi-Layer Perceptron classifier was implemented with 50 nodes in the hidden
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>Original Data</strong></td>
+      <td align="center" rowspan="3"><strong>Original Data</strong></td>
       <td align="center">Logistic/Sigmoid</td>
       <td align="center">72.625</td>
       <td align="center">73.228</td>
@@ -831,7 +784,6 @@ An Multi-Layer Perceptron classifier was implemented with 50 nodes in the hidden
       <td align="center">72.819</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Tanh</td>
       <td align="center">63.062</td>
       <td align="center">62.495</td>
@@ -839,7 +791,6 @@ An Multi-Layer Perceptron classifier was implemented with 50 nodes in the hidden
       <td align="center">62.380</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">ReLU</td>
       <td align="center">62.438</td>
       <td align="center">64.720</td>
@@ -852,10 +803,9 @@ An Multi-Layer Perceptron classifier was implemented with 50 nodes in the hidden
       <td align="center"></td>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
     </tr>
     <tr>
-      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center" rowspan="3"><strong>Normalized Data</strong></td>
       <td align="center">Logistic/Sigmoid</td>
       <td align="center">94.562</td>
       <td align="center">94.656</td>
@@ -863,7 +813,6 @@ An Multi-Layer Perceptron classifier was implemented with 50 nodes in the hidden
       <td align="center">94.596</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Tanh</td>
       <td align="center">93.812</td>
       <td align="center">93.906</td>
@@ -871,7 +820,6 @@ An Multi-Layer Perceptron classifier was implemented with 50 nodes in the hidden
       <td align="center">93.860</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">ReLU</td>
       <td align="center">90.938</td>
       <td align="center">91.066</td>
@@ -895,7 +843,7 @@ An Multi-Layer Perceptron classifier was implemented with 50 nodes in the hidden
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>Original Data</strong></td>
+      <td align="center" rowspan="3"><strong>Original Data</strong></td>
       <td align="center">Logistic/Sigmoid</td>
       <td align="center">73.000</td>
       <td align="center">72.119</td>
@@ -903,7 +851,6 @@ An Multi-Layer Perceptron classifier was implemented with 50 nodes in the hidden
       <td align="center">72.168</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Tanh</td>
       <td align="center">72.000</td>
       <td align="center">72.331</td>
@@ -911,7 +858,6 @@ An Multi-Layer Perceptron classifier was implemented with 50 nodes in the hidden
       <td align="center">71.397</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">ReLU</td>
       <td align="center">62.500</td>
       <td align="center">64.794</td>
@@ -924,10 +870,9 @@ An Multi-Layer Perceptron classifier was implemented with 50 nodes in the hidden
       <td align="center"></td>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
     </tr>
     <tr>
-      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center" rowspan="3"><strong>Normalized Data</strong></td>
       <td align="center">Logistic/Sigmoid</td>
       <td align="center">95.750</td>
       <td align="center">95.705</td>
@@ -935,7 +880,6 @@ An Multi-Layer Perceptron classifier was implemented with 50 nodes in the hidden
       <td align="center">95.689</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Tanh</td>
       <td align="center">96.250</td>
       <td align="center">96.236</td>
@@ -943,7 +887,6 @@ An Multi-Layer Perceptron classifier was implemented with 50 nodes in the hidden
       <td align="center">96.162</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">ReLU</td>
       <td align="center">93.500</td>
       <td align="center">93.436</td>
@@ -969,7 +912,7 @@ A random forest classifier was implemented using different impurity measures (en
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>Original Data</strong></td>
+      <td align="center" rowspan="2"><strong>Original Data</strong></td>
       <td align="center">Entropy</td>
       <td align="center">88.188</td>
       <td align="center">88.499</td>
@@ -977,7 +920,6 @@ A random forest classifier was implemented using different impurity measures (en
       <td align="center">88.323</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Gini Index</td>
       <td align="center">88.062</td>
       <td align="center">88.303</td>
@@ -990,10 +932,9 @@ A random forest classifier was implemented using different impurity measures (en
       <td align="center"></td>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
     </tr>
     <tr>
-      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center" rowspan="2"><strong>Normalized Data</strong></td>
       <td align="center">Entropy</td>
       <td align="center">88.125</td>
       <td align="center">88.411</td>
@@ -1001,7 +942,6 @@ A random forest classifier was implemented using different impurity measures (en
       <td align="center">88.256</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Gini Index</td>
       <td align="center">87.937</td>
       <td align="center">88.103</td>
@@ -1026,7 +966,7 @@ A random forest classifier was implemented using different impurity measures (en
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>Original Data</strong></td>
+      <td align="center" rowspan="2"><strong>Original Data</strong></td>
       <td align="center">Entropy</td>
       <td align="center">90.000</td>
       <td align="center">89.633</td>
@@ -1034,7 +974,6 @@ A random forest classifier was implemented using different impurity measures (en
       <td align="center">89.633</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Gini Index</td>
       <td align="center">89.000</td>
       <td align="center">88.722</td>
@@ -1047,10 +986,9 @@ A random forest classifier was implemented using different impurity measures (en
       <td align="center"></td>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
     </tr>
     <tr>
-      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center" rowspan="2"><strong>Normalized Data</strong></td>
       <td align="center">Entropy</td>
       <td align="center">90.500</td>
       <td align="center">90.170</td>
@@ -1058,8 +996,7 @@ A random forest classifier was implemented using different impurity measures (en
       <td align="center">890.172</td>
     </tr>
     <tr>
-      <td align="center"></td>
-       <td align="center">Gini Index</td>
+      <td align="center">Gini Index</td>
       <td align="center">88.750</td>
       <td align="center">88.447</td>
       <td align="center">88.498</td>
@@ -1084,7 +1021,7 @@ A gradient boosting classifier was implemented using different criterion, and co
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>Original Data</strong></td>
+      <td align="center" rowspan="2"><strong>Original Data</strong></td>
       <td align="center">Friedman MSE</td>
       <td align="center">90.625</td>
       <td align="center">90.773</td>
@@ -1092,7 +1029,6 @@ A gradient boosting classifier was implemented using different criterion, and co
       <td align="center">90.699</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Squared Error</td>
       <td align="center">90.812</td>
       <td align="center">90.925</td>
@@ -1105,10 +1041,9 @@ A gradient boosting classifier was implemented using different criterion, and co
       <td align="center"></td>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
     </tr>
     <tr>
-      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center" rowspan="2"><strong>Normalized Data</strong></td>
       <td align="center">Friedman MSE</td>
       <td align="center">90.750</td>
       <td align="center">90.856</td>
@@ -1116,7 +1051,6 @@ A gradient boosting classifier was implemented using different criterion, and co
       <td align="center">90.820</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Squared Error</td>
       <td align="center">90.750</td>
       <td align="center">90.856</td>
@@ -1141,7 +1075,7 @@ A gradient boosting classifier was implemented using different criterion, and co
   </thead>
   <tbody>
     <tr>
-      <td align="center"><strong>Original Data</strong></td>
+      <td align="center" rowspan="2"><strong>Original Data</strong></td>
       <td align="center">Friedman MSE</td>
       <td align="center">91.500</td>
       <td align="center">91.240</td>
@@ -1149,7 +1083,6 @@ A gradient boosting classifier was implemented using different criterion, and co
       <td align="center">91.279</td>
     </tr>
     <tr>
-      <td align="center"></td>
       <td align="center">Squared Error</td>
       <td align="center">92.000</td>
       <td align="center">91.772</td>
@@ -1162,10 +1095,9 @@ A gradient boosting classifier was implemented using different criterion, and co
       <td align="center"></td>
       <td align="center"></td>
       <td align="center"></td>
-      <td align="center"></td>
     </tr>
     <tr>
-      <td align="center"><strong>Normalized Data</strong></td>
+      <td align="center" rowspan="2"><strong>Normalized Data</strong></td>
       <td align="center">Friedman MSE</td>
       <td align="center">92.000</td>
       <td align="center">91.772</td>
@@ -1173,8 +1105,7 @@ A gradient boosting classifier was implemented using different criterion, and co
       <td align="center">91.818</td>
     </tr>
     <tr>
-      <td align="center"></td>
-       <td align="center">Squared Error</td>
+      <td align="center">Squared Error</td>
       <td align="center">92.000</td>
       <td align="center">91.772</td>
       <td align="center">91.909</td>
