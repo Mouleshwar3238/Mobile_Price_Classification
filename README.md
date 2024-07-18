@@ -144,7 +144,7 @@ For the KNN classifier, the accuracy rates were computed for different values of
       <td align="center">59.250</td>
       <td align="center">60.586</td>
       <td align="center">58.570</td>
-      <td align="center">59.979</td>
+      <td align="center">59.879</td>
     </tr>
   </tbody>
   </table>
