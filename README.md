@@ -31,54 +31,15 @@ The dataset contains features for about 2000 mobile phones, as well as their app
 </tbody>
 </table>
 
-The dataset has been split into a training subset and test subset, with 80 % being used for training and 20 % being used for testing. The algorithms have been run on the original data as well as on the normalized data, with the latter being normalized using StandardScaler. K-fold cross validation with 5 folds (K = 5) was used to validate the performance of all the models.
+The dataset was split into a training subset and test subset, with 80 % being used for training and 20 % being used for testing. Before being used, the data in both subsets was normalized using StandardScaler.
 
 ## K Nearest Neighbours (KNN Classifier)
-For the KNN algorithm, the accuracy rates were computed for different values of K for the training dataset, and confusion matrices and bar plots were plotted for some of these values to visualize the frequency distribution of actual and predicted labels for the test dataset.
-* Best Value of K
+For the KNN classifier, the accuracy rates were computed for different values of K for the training dataset, and confusion matrices and bar plots were plotted for some of these values to visualize the frequency distribution of actual and predicted labels for the test dataset.
+* Best Value of K (= 1)
   <table>
   <thead>
     <tr>
       <th align="center"></th>
-      <th align="center">Original Test Data</th>
-      <th align="center">Normalized Test Data</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center"><strong>Value of K</strong></td>
-      <td align="center">11</td>
-      <td align="center">50</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Accuracy (in %)</strong></td>
-      <td align="center">96.000</td>
-      <td align="center">61.000</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Precision (in %)</strong></td>
-      <td align="center">96.024</td>
-      <td align="center">60.828</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Recall (in %)</strong></td>
-      <td align="center">96.026</td>
-      <td align="center">61.629</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>F1 Score (in %)</strong></td>
-      <td align="center">96.007</td>
-      <td align="center">61.116</td>
-    </tr>
-  </tbody>
-  </table>
-  
-* Other Values of K
-  <table>
-  <thead>
-    <tr>
-      <th align="center"></th>
-      <th align="center">Value of K</th>
       <th align="center">Accuracy (in %)</th>
       <th align="center">Precision (in %)</th>
       <th align="center">Recall (in %)</th>
@@ -87,69 +48,103 @@ For the KNN algorithm, the accuracy rates were computed for different values of 
   </thead>
   <tbody>
     <tr>
-      <td align="center" rowspan="4"><strong>Original Test Data</strong></td>
-      <td align="center">3</td>
-      <td align="center">93.500</td>
-      <td align="center">93.515</td>
-      <td align="center">93.545</td>
-      <td align="center">93.522</td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">100.000</td>
+      <td align="center">100.000</td>
+      <td align="center">100.000</td>
+      <td align="center">100.000</td>
     </tr>
     <tr>
-      <td align="center">5</td>
-      <td align="center">94.250</td>
-      <td align="center">94.314</td>
-      <td align="center">94.300</td>
-      <td align="center">94.300</td>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">50.750</td>
+      <td align="center">52.090</td>
+      <td align="center">50.000</td>
+      <td align="center">50.691</td>
+    </tr>
+  </tbody>
+  </table>
+
+* Other Values of K
+  <table>
+  <thead>
+    <tr>
+      <th align="center">Value of K</th>
+      <th align="center"></th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" rowspan="2"><strong>3</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">70.062</td>
+      <td align="center">71.927</td>
+      <td align="center">70.200</td>
+      <td align="center">70.254</td>
     </tr>
     <tr>
-      <td align="center">20</td>
-      <td align="center">94.750</td>
-      <td align="center">94.750</td>
-      <td align="center">94.807</td>
-      <td align="center">94.774</td>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">48.250</td>
+      <td align="center">50.103</td>
+      <td align="center">47.252</td>
+      <td align="center">47.310</td>
     </tr>
     <tr>
-      <td align="center">40</td>
-      <td align="center">94.250</td>
-      <td align="center">94.233</td>
-      <td align="center">94.314</td>
-      <td align="center">94.265</td>
+      <td align="center" colspan="6"></td>
     </tr>
     <tr>
-      <td align="center"></td>
-      <td align="center"></td>
-      <td align="center"></td>
-      <td align="center"></td>
-      <td align="center"></td>
+      <td align="center" rowspan="2"><strong>5</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">69.688</td>
+      <td align="center">71.008</td>
+      <td align="center">69.777</td>
+      <td align="center">69.876</td>
     </tr>
     <tr>
-      <td align="center" rowspan="4"><strong>Normalized Test Data</strong></td>
-      <td align="center">3</td>
-      <td align="center">45.750</td>
-      <td align="center">46.711</td>
-      <td align="center">46.734</td>
-      <td align="center">45.564</td>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">53.000</td>
+      <td align="center">55.046</td>
+      <td align="center">52.263</td>
+      <td align="center">52.819</td>
     </tr>
     <tr>
-      <td align="center">5</td>
-      <td align="center">47.500</td>
-      <td align="center">48.458</td>
-      <td align="center">48.354</td>
-      <td align="center">47.957</td>
+      <td align="center" colspan="6"></td>
     </tr>
     <tr>
-      <td align="center">20</td>
-      <td align="center">53.250</td>
-      <td align="center">53.037</td>
-      <td align="center">54.065</td>
-      <td align="center">53.376</td>
+      <td align="center" rowspan="2"><strong>10</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">66.625</td>
+      <td align="center">67.631</td>
+      <td align="center">66.760</td>
+      <td align="center">66.964</td>
     </tr>
     <tr>
-      <td align="center">40</td>
-      <td align="center">60.750</td>
-      <td align="center">60.280</td>
-      <td align="center">61.476</td>
-      <td align="center">60.701</td>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">56.250</td>
+      <td align="center">57.115</td>
+      <td align="center">55.412</td>
+      <td align="center">55.720</td>
+    </tr>
+    <tr>
+      <td align="center" colspan="6"></td>
+    </tr>
+    <tr>
+      <td align="center" rowspan="2"><strong>20</strong></td>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">69.812</td>
+      <td align="center">70.843</td>
+      <td align="center">69.960</td>
+      <td align="center">70.142</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">59.250</td>
+      <td align="center">60.586</td>
+      <td align="center">58.570</td>
+      <td align="center">59.979</td>
     </tr>
   </tbody>
   </table>
