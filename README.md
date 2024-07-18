@@ -1,5 +1,5 @@
 # Mobile_Price_Classification
-Implemented some popular classification algorithms to classify the price range of mobile phones.
+Implemented some popular classification algorithms to classify the price range of mobile phones. (Extensive improvements were carried out later)
 
 ## Dataset Description
 The dataset contains features for about 2000 mobile phones, as well as their appropriate price range depending on the metrics for these features. There are 4 different classes for the prices (low, medium, high and very high)
