@@ -606,3 +606,5 @@ For the XGBoost classifier, the optimal hyperparameters were found using halving
     </tr>
   </tbody>
   </table>
+
+(Note:- Though Linear SVC and SVC use the same kernel, they use different solvers and the latter is preferred over the former for bigger datasets)
