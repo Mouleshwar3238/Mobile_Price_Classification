@@ -329,36 +329,6 @@ For the logistic regression model, the optimal hyperparameters were found using 
   </tbody>
   </table>
 
-## Linear Discriminant Analysis (LDA)
-For the LDA model, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
-  <table>
-  <thead>
-    <tr>
-      <th align="center"></th>
-      <th align="center">Accuracy (in %)</th>
-      <th align="center">Precision (in %)</th>
-      <th align="center">Recall (in %)</th>
-      <th align="center">F1 Score (in %)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">95.062</td>
-      <td align="center">95.162</td>
-      <td align="center">95.062</td>
-      <td align="center">95.090</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">94.500</td>
-      <td align="center">94.859</td>
-      <td align="center">94.500</td>
-      <td align="center">94.554</td>
-    </tr>
-  </tbody>
-  </table>
-
 ## Perceptron
 For the perceptron model, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
