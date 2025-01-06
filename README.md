@@ -329,36 +329,6 @@ For the logistic regression model, the optimal hyperparameters were found using 
   </tbody>
   </table>
 
-## Perceptron
-For the perceptron model, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
-  <table>
-  <thead>
-    <tr>
-      <th align="center"></th>
-      <th align="center">Accuracy (in %)</th>
-      <th align="center">Precision (in %)</th>
-      <th align="center">Recall (in %)</th>
-      <th align="center">F1 Score (in %)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">87.625</td>
-      <td align="center">87.299</td>
-      <td align="center">87.625</td>
-      <td align="center">87.410</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">88.000</td>
-      <td align="center">87.923</td>
-      <td align="center">88.000</td>
-      <td align="center">87.857</td>
-    </tr>
-  </tbody>
-  </table>
-
 ## Neural Network
 A neural network with 3 hidden layers was implemented using different activation functions, and confusion matrices and bar plots were plotted for the corresponding results.
   <table>
@@ -543,36 +513,6 @@ For the bagging classifier, the optimal hyperparameters were found using halving
       <td align="center">90.227</td>
       <td align="center">90.000</td>
       <td align="center">90.053</td>
-    </tr>
-  </tbody>
-  </table>
-
-## XGBoost Classifier
-For the XGBoost classifier, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
-  <table>
-  <thead>
-    <tr>
-      <th align="center"></th>
-      <th align="center">Accuracy (in %)</th>
-      <th align="center">Precision (in %)</th>
-      <th align="center">Recall (in %)</th>
-      <th align="center">F1 Score (in %)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">100.000</td>
-      <td align="center">100.000</td>
-      <td align="center">100.000</td>
-      <td align="center">100.000</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">90.750</td>
-      <td align="center">90.743</td>
-      <td align="center">90.750</td>
-      <td align="center">90.732</td>
     </tr>
   </tbody>
   </table>
