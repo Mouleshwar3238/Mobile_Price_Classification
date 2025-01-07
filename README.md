@@ -56,10 +56,10 @@ For the KNN classifier, the accuracy rates were computed for different values of
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">50.750</td>
-      <td align="center">53.574</td>
-      <td align="center">50.750</td>
-      <td align="center">51.798</td>
+      <td align="center">90.750</td>
+      <td align="center">90.750</td>
+      <td align="center">90.750</td>
+      <td align="center">90.744</td>
     </tr>
   </tbody>
   </table>
@@ -80,17 +80,17 @@ For the KNN classifier, the accuracy rates were computed for different values of
     <tr>
       <td align="center" rowspan="2"><strong>3</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">70.062</td>
-      <td align="center">71.743</td>
-      <td align="center">70.062</td>
-      <td align="center">70.098</td>
+      <td align="center">96.062</td>
+      <td align="center">96.063</td>
+      <td align="center">96.062</td>
+      <td align="center">96.062</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">48.250</td>
-      <td align="center">51.798</td>
-      <td align="center">48.250</td>
-      <td align="center">48.543</td>
+      <td align="center">93.750</td>
+      <td align="center">93.716</td>
+      <td align="center">93.750</td>
+      <td align="center">93.703</td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -98,17 +98,17 @@ For the KNN classifier, the accuracy rates were computed for different values of
     <tr>
       <td align="center" rowspan="2"><strong>5</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">69.688</td>
-      <td align="center">70.784</td>
-      <td align="center">69.688</td>
-      <td align="center">69.731</td>
+      <td align="center">94.250</td>
+      <td align="center">94.259</td>
+      <td align="center">94.250</td>
+      <td align="center">94.249</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">53.000</td>
-      <td align="center">56.822</td>
-      <td align="center">53.000</td>
-      <td align="center">54.012</td>
+      <td align="center">92.750</td>
+      <td align="center">92.736</td>
+      <td align="center">92.750</td>
+      <td align="center">92.721</td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -116,35 +116,17 @@ For the KNN classifier, the accuracy rates were computed for different values of
     <tr>
       <td align="center" rowspan="2"><strong>10</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">66.625</td>
-      <td align="center">67.381</td>
-      <td align="center">66.625</td>
-      <td align="center">66.777</td>
+      <td align="center">94.062</td>
+      <td align="center">94.109</td>
+      <td align="center">94.062</td>
+      <td align="center">94.060</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">56.250</td>
-      <td align="center">58.742</td>
-      <td align="center">56.250</td>
-      <td align="center">56.903</td>
-    </tr>
-    <tr>
-      <td align="center" colspan="6"></td>
-    </tr>
-    <tr>
-      <td align="center" rowspan="2"><strong>20</strong></td>
-      <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">69.812</td>
-      <td align="center">70.253</td>
-      <td align="center">69.812</td>
-      <td align="center">69.955</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">59.250</td>
-      <td align="center">62.209</td>
-      <td align="center">59.250</td>
-      <td align="center">60.084</td>
+      <td align="center">95.250</td>
+      <td align="center">95.302</td>
+      <td align="center">95.250</td>
+      <td align="center">95.248</td>
     </tr>
   </tbody>
   </table>
@@ -164,17 +146,17 @@ For the decision tree model, the optimal hyperparameters were found using halvin
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">95.000</td>
-      <td align="center">95.040</td>
-      <td align="center">95.000</td>
-      <td align="center">94.489</td>
+      <td align="center">97.312</td>
+      <td align="center">97.349</td>
+      <td align="center">97.312</td>
+      <td align="center">97.320</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
       <td align="center">83.250</td>
-      <td align="center">83.327</td>
+      <td align="center">83.368</td>
       <td align="center">83.250</td>
-      <td align="center">83.263</td>
+      <td align="center">83.298</td>
     </tr>
   </tbody>
   </table>
@@ -201,10 +183,10 @@ For the random forest model, the optimal hyperparameters were found using halvin
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">90.250</td>
-      <td align="center">90.218</td>
-      <td align="center">90.250</td>
-      <td align="center">90.226</td>
+      <td align="center">86.250</td>
+      <td align="center">86.076</td>
+      <td align="center">86.250</td>
+      <td align="center">86.139/td>
     </tr>
   </tbody>
   </table>
@@ -224,17 +206,17 @@ For the Gaussian Naive Bayes model, the optimal hyperparameters were found using
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">81.938</td>
-      <td align="center">82.112</td>
-      <td align="center">81.938</td>
-      <td align="center">82.016</td>
+      <td align="center">81.625</td>
+      <td align="center">82.683</td>
+      <td align="center">81.625</td>
+      <td align="center">82.643</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">79.750</td>
-      <td align="center">80.613</td>
-      <td align="center">79.750</td>
-      <td align="center">79.942</td>
+      <td align="center">83.500</td>
+      <td align="center">83.415</td>
+      <td align="center">83.500</td>
+      <td align="center">83.441</td>
     </tr>
   </tbody>
   </table>
@@ -254,17 +236,17 @@ For the linear SVC model, the optimal hyperparameters were found using halving g
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">96.000</td>
-      <td align="center">96.001</td>
-      <td align="center">96.000</td>
-      <td align="center">95.999</td>
+      <td align="center">98.000</td>
+      <td align="center">98.017</td>
+      <td align="center">98.000</td>
+      <td align="center">97.997</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">97.750</td>
-      <td align="center">97.771</td>
-      <td align="center">97.750</td>
-      <td align="center">97.746</td>
+      <td align="center">94.500</td>
+      <td align="center">94.542</td>
+      <td align="center">94.500</td>
+      <td align="center">94.480</td>
     </tr>
   </tbody>
   </table>
@@ -284,17 +266,17 @@ For the SVM model, the optimal hyperparameters were found using halving grid sea
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">98.375</td>
-      <td align="center">98.375</td>
-      <td align="center">98.375</td>
-      <td align="center">98.375</td>
+      <td align="center">98.250</td>
+      <td align="center">98.254</td>
+      <td align="center">98.250</td>
+      <td align="center">98.251</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">97.500</td>
-      <td align="center">97.624</td>
-      <td align="center">97.500</td>
-      <td align="center">97.507</td>
+      <td align="center">94.250</td>
+      <td align="center">94.220</td>
+      <td align="center">94.250</td>
+      <td align="center">94.227</td>
     </tr>
   </tbody>
   </table>
@@ -314,17 +296,47 @@ For the logistic regression model, the optimal hyperparameters were found using 
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">98.438</td>
-      <td align="center">98.440</td>
-      <td align="center">98.438</td>
-      <td align="center">98.436</td>
+      <td align="center">99.250</td>
+      <td align="center">99.251</td>
+      <td align="center">99.250</td>
+      <td align="center">99.250</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">97.500</td>
-      <td align="center">97.582</td>
-      <td align="center">97.500</td>
-      <td align="center">97.506</td>
+      <td align="center">96.500</td>
+      <td align="center">96.512</td>
+      <td align="center">96.500</td>
+      <td align="center">96.498</td>
+    </tr>
+  </tbody>
+  </table>
+
+## SGD (Stochastic Gradient Descent) Classifier
+For the SGD classifier, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
+  <table>
+  <thead>
+    <tr>
+      <th align="center"></th>
+      <th align="center">Accuracy (in %)</th>
+      <th align="center">Precision (in %)</th>
+      <th align="center">Recall (in %)</th>
+      <th align="center">F1 Score (in %)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><strong>Training Subset</strong></td>
+      <td align="center">91.188</td>
+      <td align="center">91.188</td>
+      <td align="center">91.188</td>
+      <td align="center">91.188</td>
+    </tr>
+    <tr>
+      <td align="center"><strong>Test Subset</strong></td>
+      <td align="center">88.250</td>
+      <td align="center">88.394</td>
+      <td align="center">88.250</td>
+      <td align="center">88.314</td>
     </tr>
   </tbody>
   </table>
@@ -353,10 +365,10 @@ A neural network with 3 hidden layers was implemented using different activation
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">93.000</td>
-      <td align="center">92.825</td>
-      <td align="center">92.800</td>
-      <td align="center">92.788</td>
+      <td align="center">91.750</td>
+      <td align="center">91.635</td>
+      <td align="center">91.635</td>
+      <td align="center">91.627</td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -371,10 +383,10 @@ A neural network with 3 hidden layers was implemented using different activation
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">92.500</td>
-      <td align="center">92.466</td>
-      <td align="center">92.293</td>
-      <td align="center">92.304</td>
+      <td align="center">94.000</td>
+      <td align="center">93.964</td>
+      <td align="center">93.983</td>
+      <td align="center">93.971</td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -382,17 +394,17 @@ A neural network with 3 hidden layers was implemented using different activation
     <tr>
       <td align="center" rowspan="2"><strong>Sigmoid</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">99.688</td>
-      <td align="center">99.696</td>
-      <td align="center">99.690</td>
-      <td align="center">99.692</td>
+      <td align="center">99.562</td>
+      <td align="center">99.568</td>
+      <td align="center">99.570</td>
+      <td align="center">99.568</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">96.500</td>
-      <td align="center">94.523</td>
-      <td align="center">96.562</td>
-      <td align="center">96.437</td>
+      <td align="center">95.000</td>
+      <td align="center">94.967</td>
+      <td align="center">94.809</td>
+      <td align="center">94.872</td>
     </tr>
   </tbody>
   </table>
@@ -419,40 +431,10 @@ For the AdaBoost classifier model, the optimal hyperparameters were found using 
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">91.250</td>
-      <td align="center">91.521</td>
-      <td align="center">91.250</td>
-      <td align="center">91.289</td>
-    </tr>
-  </tbody>
-  </table>
-
-## SGD (Stochastic Gradient Descent) Classifier
-For the SGD classifier, the optimal hyperparameters were found using halving grid search with 5-fold cross validation, and confusion matrices and bar plots were plotted for the corresponding results.
-  <table>
-  <thead>
-    <tr>
-      <th align="center"></th>
-      <th align="center">Accuracy (in %)</th>
-      <th align="center">Precision (in %)</th>
-      <th align="center">Recall (in %)</th>
-      <th align="center">F1 Score (in %)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">90.000</td>
-      <td align="center">90.036</td>
-      <td align="center">90.000</td>
-      <td align="center">90.017</td>
-    </tr>
-    <tr>
-      <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">90.750</td>
-      <td align="center">91.022</td>
-      <td align="center">90.750</td>
-      <td align="center">90.798</td>
+      <td align="center">92.250</td>
+      <td align="center">92.201</td>
+      <td align="center">92.250</td>
+      <td align="center">92.213</td>
     </tr>
   </tbody>
   </table>
@@ -479,10 +461,10 @@ For the gradient boosting classifier, the optimal hyperparameters were found usi
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">91.000</td>
-      <td align="center">91.148</td>
-      <td align="center">91.000</td>
-      <td align="center">91.026</td>
+      <td align="center">91.750</td>
+      <td align="center">91.831</td>
+      <td align="center">91.750</td>
+      <td align="center">91.782</td>
     </tr>
   </tbody>
   </table>
@@ -509,10 +491,10 @@ For the bagging classifier, the optimal hyperparameters were found using halving
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">90.000</td>
-      <td align="center">90.227</td>
-      <td align="center">90.000</td>
-      <td align="center">90.053</td>
+      <td align="center">89.750</td>
+      <td align="center">89.809</td>
+      <td align="center">89.750</td>
+      <td align="center">89.771</td>
     </tr>
   </tbody>
   </table>
