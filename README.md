@@ -326,17 +326,17 @@ A neural network with 3 hidden layers was implemented using different activation
     <tr>
       <td align="center" rowspan="2"><strong>ReLU</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">97.562</td>
-      <td align="center">97.569</td>
-      <td align="center">97.561</td>
-      <td align="center">97.563</td>
+      <td align="center">97.625</td>
+      <td align="center">97.632</td>
+      <td align="center">97.628</td>
+      <td align="center">97.630</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">90.500</td>
-      <td align="center">90.281</td>
-      <td align="center">91.635</td>
-      <td align="center">91.627</td>
+      <td align="center">90.750</td>
+      <td align="center">90.689</td>
+      <td align="center">90.693</td>
+      <td align="center">90.638</td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -344,17 +344,17 @@ A neural network with 3 hidden layers was implemented using different activation
     <tr>
       <td align="center" rowspan="2"><strong>Tanh</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">100.000</td>
-      <td align="center">100.000</td>
-      <td align="center">100.000</td>
-      <td align="center">100.000</td>
+      <td align="center">98.562</td>
+      <td align="center">98.569</td>
+      <td align="center">98.563</td>
+      <td align="center">98.564</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">94.000</td>
-      <td align="center">93.964</td>
-      <td align="center">93.983</td>
-      <td align="center">93.971</td>
+      <td align="center">91.250</td>
+      <td align="center">91.168</td>
+      <td align="center">91.203</td>
+      <td align="center">91.182</td>
     </tr>
     <tr>
       <td align="center" colspan="6"></td>
@@ -362,17 +362,17 @@ A neural network with 3 hidden layers was implemented using different activation
     <tr>
       <td align="center" rowspan="2"><strong>Sigmoid</strong></td>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">99.562</td>
-      <td align="center">99.568</td>
-      <td align="center">99.570</td>
-      <td align="center">99.568</td>
+      <td align="center">98.750</td>
+      <td align="center">98.766</td>
+      <td align="center">98.750</td>
+      <td align="center">98.752</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">95.000</td>
-      <td align="center">94.967</td>
-      <td align="center">94.809</td>
-      <td align="center">94.872</td>
+      <td align="center">94.250</td>
+      <td align="center">94.128</td>
+      <td align="center">94.150</td>
+      <td align="center">94.135</td>
     </tr>
   </tbody>
   </table>
@@ -398,15 +398,15 @@ A neural network with 3 hidden layers was implemented using different activation
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">92.250</td>
-      <td align="center">92.201</td>
-      <td align="center">92.250</td>
-      <td align="center">92.213</td>
+      <td align="center">91.500</td>
+      <td align="center">91.524</td>
+      <td align="center">91.500</td>
+      <td align="center">91.445</td>
     </tr>
   </tbody>
   </table>
 
-## Histogram-based Gradient Boosting Classifier
+## Gradient Boosting Classifier
   <table>
   <thead>
     <tr>
@@ -427,10 +427,10 @@ A neural network with 3 hidden layers was implemented using different activation
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">91.750</td>
-      <td align="center">91.831</td>
-      <td align="center">91.750</td>
-      <td align="center">91.782</td>
+      <td align="center">92.750</td>
+      <td align="center">92.841</td>
+      <td align="center">92.750</td>
+      <td align="center">92.781</td>
     </tr>
   </tbody>
   </table>
@@ -449,17 +449,17 @@ A neural network with 3 hidden layers was implemented using different activation
   <tbody>
     <tr>
       <td align="center"><strong>Training Subset</strong></td>
-      <td align="center">99.625</td>
-      <td align="center">99.626</td>
-      <td align="center">99.625</td>
-      <td align="center">99.625</td>
+      <td align="center">100.000</td>
+      <td align="center">100.000</td>
+      <td align="center">100.000</td>
+      <td align="center">100.000</td>
     </tr>
     <tr>
       <td align="center"><strong>Test Subset</strong></td>
-      <td align="center">89.750</td>
-      <td align="center">89.809</td>
-      <td align="center">89.750</td>
-      <td align="center">89.771</td>
+      <td align="center">91.250</td>
+      <td align="center">91.228</td>
+      <td align="center">91.250</td>
+      <td align="center">91.236</td>
     </tr>
   </tbody>
   </table>
